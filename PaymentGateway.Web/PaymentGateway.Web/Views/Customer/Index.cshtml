@@ -1,0 +1,73 @@
+﻿@using CustomLibrary.Models
+@model CustomerModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Customer Information</h2>
+
+<div class="container">
+    @if (!string.IsNullOrWhiteSpace(@Model.ErrorMessage))
+    {
+        <h3>@Model.ErrorMessage</h3>
+    }
+    <div class="row col-sm-12">
+        @using (Html.BeginForm("Index", "Customer", FormMethod.Post))
+        {
+            <div class="row col-sm-6">
+                <div class="col-sm-12 form-group">
+                    <label class="control-label">FirstName</label>
+                    @Html.TextBoxFor(m => m.objCustomer.FirstName, new {@class = "form-control"})
+                </div>
+
+                <div class="col-sm-12 form-group">
+                    <label class="control-label">LastName</label>
+                    @Html.TextBoxFor(m => m.objCustomer.LastName, new {@class = "form-control"})
+                </div>
+
+                <div class="col-sm-12 form-group">
+                    <label class="control-label">EmailID</label>
+                    @Html.TextBoxFor(m => m.objCustomer.EmailID, new {@class = "form-control"})
+                </div>
+
+                <div class="col-sm-12 form-group">
+                    <label class="control-label">Address</label>
+                    @Html.TextAreaFor(m => m.objCustomer.Address, new
+                    {
+                        @class = "form-control",
+                        Columns = "55",
+                        Rows = "4",
+                    })
+                </div>
+                <div class="col-sm-12 form-group">
+                    <input type="submit" value="submit" class="btn btn-success" />  
+                </div>
+            </div>
+        }
+        <div class="row col-sm-6">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Customer FullName</th>
+                        <th>Customer EmailID</th>
+                        <th>Customer Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in Model.Customers)
+                    {
+                        <tr>
+                            <td>@customer.ID</td>
+                            <td>@string.Format("{0} {1}",@customer.FirstName,@customer.LastName)</td>
+                            <td>@customer.EmailID</td>
+                            <td>@customer.Address</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Web", "PaymentGateway.Web\PaymentGateway.Web.csproj", "{0229FB26-E7D8-42B8-9FC5-D06805A7F450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizeNET", "..\Authorize.NET\AuthorizeNET.csproj", "{5D52EAEC-42FB-4313-83B8-69E2F55EBF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLibrary", "..\CustomLibrary\CustomLibrary.csproj", "{84EF5257-B0AC-48A2-AD06-ECE085C5D2A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0229FB26-E7D8-42B8-9FC5-D06805A7F450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0229FB26-E7D8-42B8-9FC5-D06805A7F450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0229FB26-E7D8-42B8-9FC5-D06805A7F450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0229FB26-E7D8-42B8-9FC5-D06805A7F450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D52EAEC-42FB-4313-83B8-69E2F55EBF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D52EAEC-42FB-4313-83B8-69E2F55EBF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D52EAEC-42FB-4313-83B8-69E2F55EBF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D52EAEC-42FB-4313-83B8-69E2F55EBF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84EF5257-B0AC-48A2-AD06-ECE085C5D2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EF5257-B0AC-48A2-AD06-ECE085C5D2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EF5257-B0AC-48A2-AD06-ECE085C5D2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EF5257-B0AC-48A2-AD06-ECE085C5D2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

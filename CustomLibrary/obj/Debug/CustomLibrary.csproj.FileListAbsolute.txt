@@ -1,0 +1,14 @@
+F:\Git-Component\PaymentGateway\CustomLibrary\bin\Debug\CustomLibrary.dll.config
+F:\Git-Component\PaymentGateway\CustomLibrary\bin\Debug\CustomLibrary.dll
+F:\Git-Component\PaymentGateway\CustomLibrary\bin\Debug\CustomLibrary.pdb
+F:\Git-Component\PaymentGateway\CustomLibrary\bin\Debug\EntityFramework.dll
+F:\Git-Component\PaymentGateway\CustomLibrary\bin\Debug\EntityFramework.SqlServer.dll
+F:\Git-Component\PaymentGateway\CustomLibrary\bin\Debug\EntityFramework.xml
+F:\Git-Component\PaymentGateway\CustomLibrary\bin\Debug\EntityFramework.SqlServer.xml
+F:\Git-Component\PaymentGateway\CustomLibrary\obj\Debug\CustomLibrary.dll
+F:\Git-Component\PaymentGateway\CustomLibrary\obj\Debug\CustomLibrary.pdb
+F:\Git-Component\PaymentGateway\CustomLibrary\obj\Debug\CustomLibrary.csprojResolveAssemblyReference.cache
+F:\Git-Component\PaymentGateway\CustomLibrary\obj\Debug\CustomLibrary.Migrations.InitialCreate.resources
+F:\Git-Component\PaymentGateway\CustomLibrary\obj\Debug\CustomLibrary.csproj.GenerateResource.Cache
+F:\Git-Component\PaymentGateway\CustomLibrary\obj\Debug\CustomLibrary.Migrations.DbEntityContext.resources
+F:\Git-Component\PaymentGateway\CustomLibrary\obj\Debug\CustomLibrary.Migrations.StoreProc_DbEntityContext.resources

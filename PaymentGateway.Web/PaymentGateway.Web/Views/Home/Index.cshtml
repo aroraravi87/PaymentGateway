@@ -1,0 +1,42 @@
+﻿
+@model PaymentGateway.Web.Controllers.PaymentModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+    .bgclass {
+        color: white;
+        background-color: blueviolet;
+        border: 1px solid black;
+
+       
+    }
+</style>
+
+
+@if (Model.Message != null)
+{
+
+    <div class="row bgclass">
+        <h2>@Model.Message</h2>
+    </div>
+}
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
+            <input type="submit" value="payment" class="btn btn-danger" />
+        }
+    </div>
+    <div class="col-md-4">
+
+    </div>
+    <div class="col-md-4">
+
+    </div>
+</div>

@@ -1,0 +1,12 @@
+F:\Git-Component\Authorize.NET\bin\Debug\AuthorizeNet.XML
+F:\Git-Component\Authorize.NET\bin\Debug\AuthorizeNet.dll
+F:\Git-Component\Authorize.NET\bin\Debug\AuthorizeNet.pdb
+F:\Git-Component\Authorize.NET\obj\Debug\AuthorizeNET.csprojResolveAssemblyReference.cache
+F:\Git-Component\Authorize.NET\obj\Debug\AuthorizeNet.dll
+F:\Git-Component\Authorize.NET\obj\Debug\AuthorizeNet.pdb
+F:\Git-Component\PaymentGateway\Authorize.NET\bin\Debug\AuthorizeNet.XML
+F:\Git-Component\PaymentGateway\Authorize.NET\bin\Debug\AuthorizeNet.dll
+F:\Git-Component\PaymentGateway\Authorize.NET\bin\Debug\AuthorizeNet.pdb
+F:\Git-Component\PaymentGateway\Authorize.NET\obj\Debug\AuthorizeNET.csprojResolveAssemblyReference.cache
+F:\Git-Component\PaymentGateway\Authorize.NET\obj\Debug\AuthorizeNet.dll
+F:\Git-Component\PaymentGateway\Authorize.NET\obj\Debug\AuthorizeNet.pdb
