@@ -63,6 +63,7 @@
       <DependentUpon>201605191219081_StoreProc_DbEntityContext.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\PaymentModel.cs" />
     <Compile Include="Models\CustomerModel.cs" />
     <Compile Include="Models\StoreProc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

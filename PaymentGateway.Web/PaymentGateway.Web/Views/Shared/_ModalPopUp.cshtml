@@ -1,0 +1,65 @@
+﻿@model  CustomLibrary.Models.PaymentModel
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+
+                <h4 class="modal-title" id="myModalLabel">
+                    Please provide card details.
+                </h4>
+            </div>
+            @using (Ajax.BeginForm("Index", "Home", new AjaxOptions() { HttpMethod = "Post", 
+                                                                        UpdateTargetId = "Productresult"
+                                                                       
+                                                                        }))
+            {
+                <div class="modal-body">
+                    @Html.HiddenFor(m=>m.TransactionAmount)
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label class="control-label">Card Number</label>
+                            @Html.TextBoxFor(m=>m.CardNo,new {@class="form-control"})
+                            @Html.ValidationMessageFor(m=>m.CardNo)
+                        </div>
+                        <div class="col-sm-12">
+                            <label class="control-label">Card Name</label>
+                            @Html.TextBoxFor(m => m.CardName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.CardName)
+                        </div>
+                        <div class="col-sm-12">
+                            <label class="control-label">Card Expiry</label>
+                            @Html.TextBoxFor(m => m.CardExp, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.CardExp)
+                        </div>
+                        <div class="col-sm-12">
+                            <label class="control-label">Card CVV NO</label>
+                            @Html.TextBoxFor(m => m.CardCvv, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.CardCvv)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <div class="col-sm-6">
+                        <input type="button" class="btn btn-danger" data-dismiss="modal" value="Close" />
+                    </div><div class="col-sm-2">
+
+                        <input type="submit" class="btn btn-danger" value="Payment" />
+
+                    </div>
+
+                </div>
+            }
+        <!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+
+    </div><!-- /.modal -->
+</div>

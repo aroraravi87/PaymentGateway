@@ -9,14 +9,15 @@
 
 </head>
 <body>
-    
+    @Scripts.Render("~/bundles/jquery")
     <div class="container body-content">
+        <hr />
         @RenderBody()
         <hr />
         
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
+  
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
